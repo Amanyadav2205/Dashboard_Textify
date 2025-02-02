@@ -128,7 +128,7 @@ const ProjectsPage: React.FC = () => {
                                         <div className="flex -space-x-1 ">
 
                                             <div className="w-15 h-6 rounded-full bg-[#6B7AFF]/10 border-2 border-white">
-                                                <img
+                                                <Image
                                                     src="/users.png"
                                                     alt=""
                                                     className="w-full h-full rounded-full"

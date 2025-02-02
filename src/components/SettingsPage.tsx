@@ -83,7 +83,7 @@ const SettingsPage = () => {
               <LockIcon className="text-red-400 h-14 w-14" />
               <div>
                 <h3 className="font-semibold mb-1">Lorem ipsum dolor sit amet.</h3>
-                <p className="text-sm text-gray-500">We're hiding some account details to protect your identity.</p>
+                <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, deleniti..</p>
               </div>
             </div>
           </Card>

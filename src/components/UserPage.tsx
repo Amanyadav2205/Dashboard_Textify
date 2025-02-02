@@ -2,6 +2,7 @@ import React from 'react';
 import { Card} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import Image from 'next/image';
 
 interface UserProfile {
   name: string;
@@ -46,7 +47,7 @@ const UserProfilePage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="space-y-6">
             <div className="flex gap-4 items-center">
-              <img
+              <Image
                 src="/Profile.jpg"
                 alt="Profile"
                 className="w-14 h-14 rounded-full"
