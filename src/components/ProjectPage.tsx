@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { MoreVertical, Search } from "lucide-react";
+import { MoreVertical} from "lucide-react";
 
 
 interface Project {

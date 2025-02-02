@@ -1,6 +1,6 @@
 
 import DiamondIcon from '@mui/icons-material/Diamond';
-const UserCard = ({ type }: { type: string }) => {
+const UserCard = ({}: { type: string }) => {
     return (
         <div className="rounded-2xl bg-CARD p-4 flex-1 ml-2 min-w-[130px] min-h-[100px] shadow-lg">
         <div className="flex items-center gap-4"> 
