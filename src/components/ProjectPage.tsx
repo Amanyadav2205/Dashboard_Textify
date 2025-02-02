@@ -121,6 +121,8 @@ const ProjectsPage: React.FC = () => {
                                             src={project.icon}
                                             alt="Project icon"
                                             className="w-6 h-6"
+                                            width={24}
+                                            height={24}
                                         />
                                     </div>
                                     <div>
@@ -128,10 +130,12 @@ const ProjectsPage: React.FC = () => {
                                         <div className="flex -space-x-1 ">
 
                                             <div className="w-15 h-6 rounded-full bg-[#6B7AFF]/10 border-2 border-white">
-                                                <Image
+                                                <img
                                                     src="/users.png"
                                                     alt=""
                                                     className="w-full h-full rounded-full"
+                                                   
+                                                    
                                                 />
                                             </div>
 
