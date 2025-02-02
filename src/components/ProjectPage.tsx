@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MoreVertical} from "lucide-react";
+import Image from 'next/image';
 
 
 interface Project {
@@ -116,7 +117,7 @@ const ProjectsPage: React.FC = () => {
                             <div className="flex justify-between items-start mb-4">
                                 <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 bg-[#6B7AFF]/10 rounded-lg flex items-center justify-center">
-                                        <img
+                                        <Image
                                             src={project.icon}
                                             alt="Project icon"
                                             className="w-6 h-6"

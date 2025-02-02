@@ -82,7 +82,7 @@ const SettingsPage = () => {
             <div className="flex gap-3 flex-col">
               <LockIcon className="text-red-400 h-14 w-14" />
               <div>
-                <h3 className="font-semibold mb-1">Why isn't my info shown here?</h3>
+                <h3 className="font-semibold mb-1">Lorem ipsum dolor sit amet.</h3>
                 <p className="text-sm text-gray-500">We're hiding some account details to protect your identity.</p>
               </div>
             </div>
