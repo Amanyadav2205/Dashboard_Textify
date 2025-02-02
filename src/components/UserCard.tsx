@@ -1,4 +1,4 @@
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+
 import DiamondIcon from '@mui/icons-material/Diamond';
 const UserCard = ({ type }: { type: string }) => {
     return (

@@ -1,6 +1,6 @@
 import SearchIcon from '@mui/icons-material/Search';
 import EmailIcon from '@mui/icons-material/Email';
-import Image from 'next/image';
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 

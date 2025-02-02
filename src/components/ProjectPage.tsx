@@ -2,8 +2,7 @@ import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MoreVertical, Search } from "lucide-react";
-import { Input } from "@/components/ui/input";
-// import CompletedCourses from './CompCourse';
+
 
 interface Project {
     id: number;
