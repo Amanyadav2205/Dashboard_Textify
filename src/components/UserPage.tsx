@@ -36,9 +36,9 @@ const UserProfilePage: React.FC = () => {
   };
 
   return (
-    <div className=" max-w-7xl gap-8">
+    <div className=" max-w-7xl gap-8 ">
 
-      <Card className="bg-CARD p-6">
+      <Card className="bg-CARD  p-6">
         <div className="mb-4">
           <h2 className="text-lg font-semibold font-aclonica">Profile review</h2>
           <p className="text-gray-500 text-sm">Review all your provided info</p>
@@ -51,6 +51,8 @@ const UserProfilePage: React.FC = () => {
                 src="/Profile.jpg"
                 alt="Profile"
                 className="w-14 h-14 rounded-full"
+                width={24}
+                height={24}
               />
               <div>
                 <h3 className="text-sm font-medium text-gray-500">Name</h3>
